@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(28, 26, 26, 0.5),rgba(0, 0, 0, 0.85)),url(web.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sign{
+    position:relative;
+    margin:10% auto;
+    height: 400px;
+    width:600px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+.left-box{
+    position: absolute;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    padding: 40px;
+    width: 360px;
+    height: 480px;
+    
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+}
+.input-box{ font-family: cursive;
+      border: 0;
+    background:none;
+    display: block;
+    margin:6px auto;
+    text-align: center;
+    border: 2px solid rgba(90, 90, 193, 0.76);
+    padding: 7px 5px;
+    width: 200px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.input-box[type="text"]:focus,.input-box[type="email"]:focus,.input-box[type="password"]:focus{
+    width: 250px;
+    border-color: #199319;
+    text-align: center;
+}
+.sub-btn{
+     border: 0;
+    background:none;
+    display: block;
+    margin:3px auto;
+    text-align: center;
+    border: 2px solid #0c600c;
+    padding: 6px 8px;
+    width: 70px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.sub-btn:hover{
+    border: 1.2px solid white;
+    background: #1b691b;
+    color: aliceblue;
+}
+.right-box{
+  position: absolute;
+    top:0;
+    right:0;
+    box-sizing:border-box;
+    padding: 60px;
+    width: 360px;
+    height: 480px;
+    
+}
+.right-title{font-family: cursive;
+    color: aliceblue;
+    display: block;
+    margin-bottom: 40px;
+    font-size: 17px;
+    text-align: center;
+    text-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+.social{font-family: cursive;
+      border: 0;
+    background:none;
+    display: block;
+    margin:15px auto;
+    text-align: center;
+    border: 2px;
+    padding: 8px 9px;
+    width: 200px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor:pointer;
+}
+.facebook{
+    background: blue;
+}
+.google{
+    background: red;
+}
+.social:hover{
+   width: 210px;
+    height:40px;
+}
+.or{
+    font-family: cursive;
+    color:#c1cdf0;
+    font-size: 12px;
+    position: absolute;
+    top:185px;
+    left:287px;
+    width: 25px;
+    height: 25px;
+    background: #323441;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}

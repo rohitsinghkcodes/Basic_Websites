@@ -1,0 +1,29 @@
+h1{color:chocolate;
+text-align: center;
+font-family: cursive;
+    border: 1px solid tomato;
+}
+
+p1,p2,p3,p6{
+    color:bisque;
+    font-family:cursive;
+    
+}
+
+p4,p5{
+    color:bisque;
+    font-family: cursive;
+}
+h4,h3,h6{font-size: 25px;
+font-family: inherit;
+color:cornflowerblue}
+
+p1,p2,{
+    float: left;
+    border: 1px solid powderblue;
+}
+body{
+    background-color:rgba(0,50,71,1);
+
+    
+}

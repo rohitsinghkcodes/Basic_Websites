@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.85)),url(web.jpg);
+    height: 100vh;
+    background-size:auto;
+    background-position:center;
+}
+ul{
+    float: right;
+    margin: 20px;
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid rgb(14, 96, 191);
+    transition: 0.5s ease;
+    border-radius: 25px;
+    background: rgba(11, 123, 173, 0.27);
+}
+
+ul li a:hover{
+    background-color:rgba(79, 79, 85, 0.51);
+    color:antiquewhite;
+    
+}
+.beta a{
+    background:rgba(11, 123, 173, 0.27);
+}
+
+.gama{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.gama h1{
+    color:#dbd5d5;
+    font-size: 90px;
+    font-family:fantasy;
+}
+.gama h3{
+    color:#1582d1;
+    text-align: center;
+    font-size: 15;
+    font-family:cursive;
+}
+#point{
+    background:rgba(79, 79, 85, 0.51); 
+}
+ 

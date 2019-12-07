@@ -1,0 +1,118 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #437295;
+    
+}
+.log{
+    width:300px;
+    padding: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border-radius: 48px;
+}
+.log h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.log input[type="text"],.log input[type="password"]{
+    border: 0;
+    background:none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid #2727cb;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.log input[type="text"]:focus,.log input[type="password"]:focus{
+    width: 280px;
+    border-color: #189b18;
+    
+}
+.log input[type="submit"]{
+     border: 0;
+    background:none;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+    border: 2px solid #189b18;
+    padding: 14px 10px;
+    width: 90px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.btn3{
+border: 0;
+    background:none;
+    display: block;
+    margin-top:40px;
+    margin-left: 107px;
+    text-align: center;
+    border: 2px solid #9f0202;
+    padding: 5px;
+    width: 90px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+} 
+.or{
+    font-size: 18px;
+    color: #525757;
+}
+.log input[type="submit"]:hover{
+    background: #189b18;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.85)),url(web.jpg);
+    height: 100vh;
+    background-size:auto;
+    background-position:center;
+}
+ul{
+    float:right;
+    margin: 20px;
+}
+
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 2px solid rgba(195, 133, 16, 0.55);
+    transition: 0.5s ease;
+    border-radius: 25px
+}
+
+ul li a:hover{
+    background-color:#4f4f55;
+    color:antiquewhite;}
+.beta a{
+background:rgba(195, 133, 16, 0.29);
+}
